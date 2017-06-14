@@ -23,7 +23,7 @@ Tools:
 + 3D printer
 + Soldering iron
 
-## Things to print:
+## Things to print
 + 1x Base - Bottom
 + 1x Base - Top
 + 1x Arm  - 1
@@ -32,16 +32,20 @@ Tools:
 + 1x Head - Top     (v2)
 Files can be found in /STL, or /Inventor if you wish to modify it.
 
-## Circuit:  
+## Circuit
 ![](res/Circuit_bb.png)
 
-## Steps:
+## Steps
 1. Assemble lamp with washers between each plastic part
 1. Solder DS2812's together (easier if not broken apart)
 1. Mount tape and cable on lamp, solder together
 1. Solder remaining parts and mount with hot glue
 1. Add weights to base
 1. Assemble lamp base (holes might need drilling)
-1. Flash arduino software
+1. Download Aduino software, install libraries and flash
 1. Run configuration utility
 
+## Dependencies
++ DS3231 - For interacting with RTC module
++ ADCTouch - For doing touch sensing
++ Adafruit_NeoPixel - For obvious reasons
